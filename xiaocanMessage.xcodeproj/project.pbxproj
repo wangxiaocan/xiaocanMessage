@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72DA17981DC340B300FF56FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DA17971DC340B300FF56FD /* main.m */; };
+		72DA179B1DC340B300FF56FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DA179A1DC340B300FF56FD /* AppDelegate.m */; };
+		72DA179E1DC340B300FF56FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DA179D1DC340B300FF56FD /* ViewController.m */; };
+		72DA17A11DC340B400FF56FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72DA179F1DC340B400FF56FD /* Main.storyboard */; };
+		72DA17A31DC340B400FF56FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72DA17A21DC340B400FF56FD /* Assets.xcassets */; };
+		72DA17A61DC340B400FF56FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72DA17A41DC340B400FF56FD /* LaunchScreen.storyboard */; };
+		72DA17B11DC340B500FF56FD /* xiaocanMessageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DA17B01DC340B500FF56FD /* xiaocanMessageTests.m */; };
+		72DA17BC1DC340B600FF56FD /* xiaocanMessageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DA17BB1DC340B600FF56FD /* xiaocanMessageUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72DA17AD1DC340B500FF56FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72DA178B1DC340B300FF56FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72DA17921DC340B300FF56FD;
+			remoteInfo = xiaocanMessage;
+		};
+		72DA17B81DC340B600FF56FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72DA178B1DC340B300FF56FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72DA17921DC340B300FF56FD;
+			remoteInfo = xiaocanMessage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		72DA17931DC340B300FF56FD /* xiaocanMessage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xiaocanMessage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72DA17971DC340B300FF56FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72DA17991DC340B300FF56FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		72DA179A1DC340B300FF56FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		72DA179C1DC340B300FF56FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		72DA179D1DC340B300FF56FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		72DA17A01DC340B400FF56FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72DA17A21DC340B400FF56FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72DA17A51DC340B400FF56FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72DA17A71DC340B400FF56FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72DA17AC1DC340B500FF56FD /* xiaocanMessageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xiaocanMessageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72DA17B01DC340B500FF56FD /* xiaocanMessageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xiaocanMessageTests.m; sourceTree = "<group>"; };
+		72DA17B21DC340B600FF56FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72DA17B71DC340B600FF56FD /* xiaocanMessageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xiaocanMessageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72DA17BB1DC340B600FF56FD /* xiaocanMessageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xiaocanMessageUITests.m; sourceTree = "<group>"; };
+		72DA17BD1DC340B600FF56FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72DA17901DC340B300FF56FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72DA17A91DC340B500FF56FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72DA17B41DC340B600FF56FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72DA178A1DC340B300FF56FD = {
+			isa = PBXGroup;
+			children = (
+				72DA17951DC340B300FF56FD /* xiaocanMessage */,
+				72DA17AF1DC340B500FF56FD /* xiaocanMessageTests */,
+				72DA17BA1DC340B600FF56FD /* xiaocanMessageUITests */,
+				72DA17941DC340B300FF56FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72DA17941DC340B300FF56FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72DA17931DC340B300FF56FD /* xiaocanMessage.app */,
+				72DA17AC1DC340B500FF56FD /* xiaocanMessageTests.xctest */,
+				72DA17B71DC340B600FF56FD /* xiaocanMessageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72DA17951DC340B300FF56FD /* xiaocanMessage */ = {
+			isa = PBXGroup;
+			children = (
+				72DA17991DC340B300FF56FD /* AppDelegate.h */,
+				72DA179A1DC340B300FF56FD /* AppDelegate.m */,
+				72DA179C1DC340B300FF56FD /* ViewController.h */,
+				72DA179D1DC340B300FF56FD /* ViewController.m */,
+				72DA179F1DC340B400FF56FD /* Main.storyboard */,
+				72DA17A21DC340B400FF56FD /* Assets.xcassets */,
+				72DA17A41DC340B400FF56FD /* LaunchScreen.storyboard */,
+				72DA17A71DC340B400FF56FD /* Info.plist */,
+				72DA17961DC340B300FF56FD /* Supporting Files */,
+			);
+			path = xiaocanMessage;
+			sourceTree = "<group>";
+		};
+		72DA17961DC340B300FF56FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72DA17971DC340B300FF56FD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72DA17AF1DC340B500FF56FD /* xiaocanMessageTests */ = {
+			isa = PBXGroup;
+			children = (
+				72DA17B01DC340B500FF56FD /* xiaocanMessageTests.m */,
+				72DA17B21DC340B600FF56FD /* Info.plist */,
+			);
+			path = xiaocanMessageTests;
+			sourceTree = "<group>";
+		};
+		72DA17BA1DC340B600FF56FD /* xiaocanMessageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				72DA17BB1DC340B600FF56FD /* xiaocanMessageUITests.m */,
+				72DA17BD1DC340B600FF56FD /* Info.plist */,
+			);
+			path = xiaocanMessageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72DA17921DC340B300FF56FD /* xiaocanMessage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72DA17C01DC340B600FF56FD /* Build configuration list for PBXNativeTarget "xiaocanMessage" */;
+			buildPhases = (
+				72DA178F1DC340B300FF56FD /* Sources */,
+				72DA17901DC340B300FF56FD /* Frameworks */,
+				72DA17911DC340B300FF56FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = xiaocanMessage;
+			productName = xiaocanMessage;
+			productReference = 72DA17931DC340B300FF56FD /* xiaocanMessage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72DA17AB1DC340B500FF56FD /* xiaocanMessageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72DA17C31DC340B600FF56FD /* Build configuration list for PBXNativeTarget "xiaocanMessageTests" */;
+			buildPhases = (
+				72DA17A81DC340B500FF56FD /* Sources */,
+				72DA17A91DC340B500FF56FD /* Frameworks */,
+				72DA17AA1DC340B500FF56FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72DA17AE1DC340B500FF56FD /* PBXTargetDependency */,
+			);
+			name = xiaocanMessageTests;
+			productName = xiaocanMessageTests;
+			productReference = 72DA17AC1DC340B500FF56FD /* xiaocanMessageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		72DA17B61DC340B600FF56FD /* xiaocanMessageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72DA17C61DC340B600FF56FD /* Build configuration list for PBXNativeTarget "xiaocanMessageUITests" */;
+			buildPhases = (
+				72DA17B31DC340B600FF56FD /* Sources */,
+				72DA17B41DC340B600FF56FD /* Frameworks */,
+				72DA17B51DC340B600FF56FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72DA17B91DC340B600FF56FD /* PBXTargetDependency */,
+			);
+			name = xiaocanMessageUITests;
+			productName = xiaocanMessageUITests;
+			productReference = 72DA17B71DC340B600FF56FD /* xiaocanMessageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72DA178B1DC340B300FF56FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = xiaocan;
+				TargetAttributes = {
+					72DA17921DC340B300FF56FD = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					72DA17AB1DC340B500FF56FD = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 72DA17921DC340B300FF56FD;
+					};
+					72DA17B61DC340B600FF56FD = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 72DA17921DC340B300FF56FD;
+					};
+				};
+			};
+			buildConfigurationList = 72DA178E1DC340B300FF56FD /* Build configuration list for PBXProject "xiaocanMessage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72DA178A1DC340B300FF56FD;
+			productRefGroup = 72DA17941DC340B300FF56FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72DA17921DC340B300FF56FD /* xiaocanMessage */,
+				72DA17AB1DC340B500FF56FD /* xiaocanMessageTests */,
+				72DA17B61DC340B600FF56FD /* xiaocanMessageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72DA17911DC340B300FF56FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72DA17A61DC340B400FF56FD /* LaunchScreen.storyboard in Resources */,
+				72DA17A31DC340B400FF56FD /* Assets.xcassets in Resources */,
+				72DA17A11DC340B400FF56FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72DA17AA1DC340B500FF56FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72DA17B51DC340B600FF56FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72DA178F1DC340B300FF56FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72DA179E1DC340B300FF56FD /* ViewController.m in Sources */,
+				72DA179B1DC340B300FF56FD /* AppDelegate.m in Sources */,
+				72DA17981DC340B300FF56FD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72DA17A81DC340B500FF56FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72DA17B11DC340B500FF56FD /* xiaocanMessageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72DA17B31DC340B600FF56FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72DA17BC1DC340B600FF56FD /* xiaocanMessageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72DA17AE1DC340B500FF56FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72DA17921DC340B300FF56FD /* xiaocanMessage */;
+			targetProxy = 72DA17AD1DC340B500FF56FD /* PBXContainerItemProxy */;
+		};
+		72DA17B91DC340B600FF56FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72DA17921DC340B300FF56FD /* xiaocanMessage */;
+			targetProxy = 72DA17B81DC340B600FF56FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		72DA179F1DC340B400FF56FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72DA17A01DC340B400FF56FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72DA17A41DC340B400FF56FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72DA17A51DC340B400FF56FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72DA17BE1DC340B600FF56FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72DA17BF1DC340B600FF56FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72DA17C11DC340B600FF56FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = xiaocanMessage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaocan.xiaocanMessage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		72DA17C21DC340B600FF56FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = xiaocanMessage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaocan.xiaocanMessage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		72DA17C41DC340B600FF56FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = xiaocanMessageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaocan.xiaocanMessageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xiaocanMessage.app/xiaocanMessage";
+			};
+			name = Debug;
+		};
+		72DA17C51DC340B600FF56FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = xiaocanMessageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaocan.xiaocanMessageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xiaocanMessage.app/xiaocanMessage";
+			};
+			name = Release;
+		};
+		72DA17C71DC340B600FF56FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = xiaocanMessageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaocan.xiaocanMessageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = xiaocanMessage;
+			};
+			name = Debug;
+		};
+		72DA17C81DC340B600FF56FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = xiaocanMessageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaocan.xiaocanMessageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = xiaocanMessage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72DA178E1DC340B300FF56FD /* Build configuration list for PBXProject "xiaocanMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72DA17BE1DC340B600FF56FD /* Debug */,
+				72DA17BF1DC340B600FF56FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72DA17C01DC340B600FF56FD /* Build configuration list for PBXNativeTarget "xiaocanMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72DA17C11DC340B600FF56FD /* Debug */,
+				72DA17C21DC340B600FF56FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		72DA17C31DC340B600FF56FD /* Build configuration list for PBXNativeTarget "xiaocanMessageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72DA17C41DC340B600FF56FD /* Debug */,
+				72DA17C51DC340B600FF56FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		72DA17C61DC340B600FF56FD /* Build configuration list for PBXNativeTarget "xiaocanMessageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72DA17C71DC340B600FF56FD /* Debug */,
+				72DA17C81DC340B600FF56FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72DA178B1DC340B300FF56FD /* Project object */;
+}
